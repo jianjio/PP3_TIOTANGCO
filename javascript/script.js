@@ -22,7 +22,7 @@ async function search() {
 
       document.getElementById("search_results").insertAdjacentHTML(
         "beforeend",
-        `
+        ` 
         <a target="_blank" href="${item.url}" class="card">
             <div class="card__image">
                 <img loading="lazy" src="${item.images.jpg.large_image_url}" alt="${item.title}" />
